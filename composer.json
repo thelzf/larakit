@@ -1,0 +1,46 @@
+{
+    "name": "thelzf/larakit",
+    "description": "A set of helpers and utilities for Laravel projects.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "helpers",
+        "utilities",
+        "brasil",
+        "brazilian",
+        "helper",
+        "package"
+    ],
+    "authors": [
+        {
+            "name": "Luiz Felipe de Lima Scapolan",
+            "homepage": "https://github.com/thelzf",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Larakit\\": "src/"
+        },
+        "files": [
+            "src/Helpers/helpers.php"
+        ]
+    },
+    "require": {
+        "php": "^7.4|^8.0"
+    },
+    "require-dev": {
+        "illuminate/support": "^8.0|^9.0|^10.0|^11.0",
+        "phpunit/phpunit": "^9.0|^10.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Larakit\\LarakitServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
