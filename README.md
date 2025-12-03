@@ -185,4 +185,3 @@ All notable changes will be documented in the [CHANGELOG.md](/CHANGELOG.md) file
 
 Your package will be automatically updated whenever you push to GitHub if you set up the webhook.
 ```
-
