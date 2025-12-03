@@ -169,7 +169,7 @@ If this package was useful to you, leave a ⭐ on [GitHub](https://github.com/th
 
 ### 📦 Changelog
 
-All notable changes will be documented in the [CHANGELOG.md](/CHANGELOG.MD) file.
+All notable changes will be documented in the [CHANGELOG.md](/CHANGELOG.md) file.
 
 *Tip:* For a complete list of all available functions, check the documentation in each file in the `src/Helpers/` folder.
 
@@ -185,3 +185,4 @@ All notable changes will be documented in the [CHANGELOG.md](/CHANGELOG.MD) file
 
 Your package will be automatically updated whenever you push to GitHub if you set up the webhook.
 ```
+
