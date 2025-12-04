@@ -20,7 +20,7 @@ Laravel will automatically discover the ServiceProvider (Auto-discovery).
 use Larakit\Helpers\Date\Age;
 
 // Check if older than 18 years
-moreThanAge('1990-05-15', 18); // true
+isOlderThan('1990-05-15', 18); // true
 
 // Format date in Brazilian format
 formatDate('2024-12-03', 'd/m/Y'); // 03/12/2024
@@ -57,14 +57,14 @@ arraySortBy($array, 'name'); // Sort by specific key
 ## Date Helpers
 
 
-`moreThanAge(string $date, int $age): bool`
+`isOlderThan(string $date, int $age): bool`
 
 
 Checks if a birth date is greater than a specific age.
 
 ```php
-moreThanAge('2006-05-15', 18); // false (not yet 18)
-moreThanAge('2000-05-15', 18); // true
+isOlderThan('2006-05-15', 18); // false (not yet 18)
+isOlderThan('2000-05-15', 18); // true
 formatDate(string $date, string $format = 'd/m/Y'): string
 ```
 
